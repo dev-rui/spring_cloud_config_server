@@ -1,2 +1,2 @@
 # spring_cloud_config_server
-springcloud閰嶇疆鏈嶅姟涓績
+springcloud配置服务中心

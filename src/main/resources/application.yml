@@ -9,11 +9,14 @@ spring:
 #       native:
 #         search-locations:
 #远程git仓库获取配置文件
-#        git:
-#          uri: http://git.oschina.net/didispace/config-repo-demo/
+        git:
+          uri: https://github.com/ruihongHe/config-repo.git
+          username: 18655377896@163.com
+          password: 032502ds@
+          search-paths: /test/
 # 获取本地配置文件
-  profiles:
-    active: native
+#  profiles:
+#    active: native
 
 server:
     port: 8185

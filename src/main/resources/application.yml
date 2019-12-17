@@ -14,9 +14,22 @@ spring:
           username: 18655377896@163.com
           password: 032502ds@
           search-paths: /test/
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone:  http://eureka-server:8181/eureka/
+  instance:
+    instance-id: ${spring.application.name}:${random.int}
 # 获取本地配置文件
 #  profiles:
 #    active: native
+#security:
+#   user:
+#    name: user
+#    password: e3b37027-e3b6-4b21-8fdf-4ffa7a87cb28
+
 
 server:
     port: 8185

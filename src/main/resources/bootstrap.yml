@@ -1,0 +1,11 @@
+encrypt:
+  key-store:
+    location: server.jks
+    alias: mytestkey
+    password: letmein
+    secret: changeme
+
+
+
+#encrypt:
+#  key: foo  # 设置对称密钥
